@@ -23,7 +23,7 @@ public class ProgramFunctionality {
 
 
     public void whileLoop(){
-
+        // While loop ussage is only done when we dont know the amount of time that we run the loop
         String input = "";
         while (!input.equals("quit")){
             System.out.print("Enter a value : ");
