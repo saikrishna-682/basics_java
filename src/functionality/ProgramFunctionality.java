@@ -28,6 +28,10 @@ public class ProgramFunctionality {
         while (!input.equals("quit")){
             System.out.print("Enter a value : ");
             input = scanner.next().toLowerCase();
+            if(input.equals("pass")) // using a continue statement within the loops
+                continue;
+            if(input.equals("quit")) // using a break statement whithin loops
+                break;
             System.out.println(input);
             int var = 4;
             int var1 = 5;
