@@ -29,6 +29,9 @@ public class ProgramFunctionality {
             System.out.print("Enter a value : ");
             input = scanner.next().toLowerCase();
             System.out.println(input);
+            int var = 4;
+            int var1 = 5;
+            int result = var + var1;
         }
     }
 
