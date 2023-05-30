@@ -39,6 +39,14 @@ public class ProgramFunctionality {
         }
     }
 
+    public void forEachLoop(){
+        String[] fruite = {"apple","orange","coconut"};
+
+        for(String fruits: fruite){
+            System.out.println(fruits);
+        }
+    }
+
 
 
 }
