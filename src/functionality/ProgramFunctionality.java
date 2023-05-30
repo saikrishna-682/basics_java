@@ -45,6 +45,10 @@ public class ProgramFunctionality {
         for(String fruits: fruite){
             System.out.println(fruits);
         }
+
+        for(int i =0; i<fruite.length;i++){
+            System.out.println(fruite[i]);
+        }
     }
 
 

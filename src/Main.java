@@ -92,7 +92,11 @@ public class Main {
 
         // excercise
         MortgageCalculator mortgageCalculator = new MortgageCalculator();
-        mortgageCalculator.getAmount();
+        //mortgageCalculator.getAmount();
+        //mortgageCalculator.mortgageUpdatedCalculator();
+        mortgageCalculator.mortgageTest();
+
+
 
         // ternary operator
 
@@ -101,7 +105,8 @@ public class Main {
 
 
         ProgramFunctionality programFunctionality = new ProgramFunctionality();
-        programFunctionality.functionality();
+//        programFunctionality.functionality();
+//        programFunctionality.forEachLoop();
 
 
 
