@@ -1,12 +1,13 @@
+import abstractexample.Example;
+import functionality.InheritanceExampleChild;
 import functionality.ProgramFunctionality;
+import functionality.abstractExampleChild;
 import mortgage.MortgageCalculator;
 
 import java.awt.*;
-import java.lang.reflect.Array;
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -94,7 +95,7 @@ public class Main {
         MortgageCalculator mortgageCalculator = new MortgageCalculator();
         //mortgageCalculator.getAmount();
         //mortgageCalculator.mortgageUpdatedCalculator();
-        mortgageCalculator.mortgageTest();
+        //mortgageCalculator.mortgageTest();
 
 
 
@@ -108,6 +109,17 @@ public class Main {
 //        programFunctionality.functionality();
 //        programFunctionality.forEachLoop();
 
+        // TESTING INHERITANCE
+
+        InheritanceExampleChild inheritanceExampleChild = new InheritanceExampleChild(10,15,3);
+        System.out.println("seat height is : "+inheritanceExampleChild.seatHeight);
+        System.out.println("speed before reduce : "+inheritanceExampleChild.getSpeed());
+        inheritanceExampleChild.lowSpeed(1);
+        System.out.println("gear that the cyclist in : "+inheritanceExampleChild.getGear());
+        System.out.println("speed after decrement : "+inheritanceExampleChild.getSpeed());
+
+
+        // ABSTRACT TESTING
 
 
 
